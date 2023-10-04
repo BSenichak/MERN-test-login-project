@@ -1,9 +1,11 @@
+import { Home } from "./pages/index.js";
+
 function App() {
-  return (
-    <>
-      Login form system
-    </>
-  )
+    return (
+        <>
+            <Home />
+        </>
+    );
 }
 
-export default App
+export default App;
